@@ -1,4 +1,4 @@
-import React, { useRef, useImperativeHandle, forwardRef } from "react";
+import React, { useRef, useImperativeHandle } from "react";
 
 const CustomInput = ({ ref }) => {
     const inputRef = useRef();
